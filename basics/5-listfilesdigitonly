@@ -1,2 +1,2 @@
 #!/bin/bash
-la -lan 
+ls -lna | tr -s ' ' |cut -d ' ' -f2-6,10 
